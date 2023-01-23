@@ -1,0 +1,21 @@
+.nav-link i{
+    color:$color-primary;
+}
+
+.navbar-right ul li{
+    list-style-type:none;
+
+    .nav-link{
+        display: inline;
+    }
+
+    &#x2022{
+        color: $color-dot;
+    }
+}
+
+.toplinks{
+    a{
+        color: $color-secondary;
+    }
+}

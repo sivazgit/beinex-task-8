@@ -1,0 +1,86 @@
+.commentsec
+{
+    color: $color-primary;
+
+    .offer-head{
+    background-color:#f1f5f8;
+    width: 100%;
+    height:400px;
+
+    h5{
+        font-weight:200px;
+    }
+    p{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    }
+
+    .offer-box {
+         .row{
+            p{
+                font-size: 13px;
+                font-weight: normal;
+            }
+            .card.col-lg-4{
+                background-color: $color-white;
+                padding-right: 30px;
+
+                i{
+                    font-size: 30px;
+                }
+                h6{
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+
+                .card-text.bottom{
+                    font-style: italic;
+                }
+
+                .demobtn{
+                    background-color: #04bbf2;
+                    padding: 7px;
+                    color: $color-white;
+                    border-radius: 3px;
+                }
+            }
+         }
+    }
+    
+
+}
+.case-study{
+    background-image: linear-gradient(#001f49,#0048ab);
+    .row{
+        color: $color-white;
+        h6{
+            font-weight: 400px;
+        }
+    }
+    
+
+    .poster{
+        height: 400px;
+        .row{
+            margin-top: 50px;
+            height: 250px;
+            background: linear-gradient(#194e91,#193963);
+            i{
+                font-size: 38px;
+                color: $color-white;
+            }
+            #first-div,#second-div{
+                border-right: 1px solid $color-white;
+            }
+            #third-div{
+                ul li{
+                    list-style-type: square;
+                }
+            }
+        }
+
+
+    }
+    
+}
